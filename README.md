@@ -1,6 +1,6 @@
 <h1>Budget Manager</h1>
 
-<a href="play.google.com/store/apps/details?id=com.furkandev.budgetmanager"><img src="https://i.resmim.net/i/google-play-badge.png" width = 300></a>
+<a href="https://play.google.com/store/apps/details?id=com.furkandev.budgetmanager"><img src="https://i.resmim.net/i/google-play-badge.png" width = 300></a>
 
 <h2>Bu proje <a href = "https://www.youtube.com/channel/UCwHGWX8X0TqGXMb-Q_GkmPg">GDG Turkey</a> tarafından verilen ve 2 ay süren, Kotlin İle Android Uygulama Geliştirme Kampı bitirme projesidir</h2>
 
