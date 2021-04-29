@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name" translatable="false">Budget Manager</string>
+    <string name="price">Price</string>
+    <string name="name">Name</string>
+    <string name="hello">Hello</string>
+    <string name="yourSpend">Total</string>
+    <string name="resonateMan">Mr. %s</string>
+    <string name="resonateWoman">Ms. %s</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="addSpend">Add Spend</string>
+    <string name="description">Description</string>
+    <string name="spendPrice">Spend Price</string>
+    <string name="bill">Invoice</string>
+    <string name="hireSpend">Rent</string>
+    <string name="other">Other</string>
+    <string name="tl" translatable="false">TL</string>
+    <string name="usd" translatable="false">USD</string>
+    <string name="euro" translatable="false">EURO</string>
+    <string name="gbp">Sterling</string>
+    <string name="man">Man</string>
+    <string name="woman">Woman</string>
+    <string name="unkownGender">"I Do Not Want To Indicate "</string>
+    <string name="save">Save</string>
+    <string name="enterYourName">Enter Your Name</string>
+    <string name="updateUserInfos">Update Your Informations</string>
+    <string name="delete">Delete</string>
+    <string name="spendDetail">Spend Detail</string>
+    <string name="newSpendAdded">New Spend Added!</string>
+    <string name="clothing">Clothing</string>
+    <string name="youSureDeleteAll">Are you sure you want to delete all your spending records?</string>
+    <string name="yes">Yes</string>
+    <string name="descriptionNull">Description cannot be empty</string>
+    <string name="priceNull">Spend cannot be empty</string>
+    <string name="error">Error</string>
+    <string name="nameNull">Name cannot be empty</string>
+    <string name="genderNull">Gender cannot be empty</string>
+    <string name="spendDeleted">Spend deleted!</string>
+    <string name="allSpendsDeleted">All spends deleted!</string>
+    <string name="welcome">Welcome!</string>
+    <string name="defaultPrice" translatable="false">NaN</string>
+    <string name="onboarding_page1_title">Welcome To Budget Manager!</string>
+    <string name="next">Next</string>
+    <string name="onboarding_page2_title">Simple Interface</string>
+    <string name="onboarding_page3_title">Different Currencies</string>
+    <string name="onboarding_page4_title">Easy to Use Offline</string>
+    <string name="start">Start</string>
+    <string name="onboarding_page5_title">Let\'s Start!</string>
+    <string name="spendNull">"You must choose your spending type "</string>
+    <string name="currencyUnitNull">You must choose the currency of your spending</string>
+    <string name="nameNotLikeThat">You cannot save a name like that.</string>
+    <string name="onboarding_page1_description">Now you will be able to track your expenses more easily!</string>
+    <string name="onboarding_page2_description">Perform your transactions easily with an easy to use and simple interface</string>
+    <string name="onboarding_page3_description">See how many units your spending is in different currencies</string>
+    <string name="onboarding_page4_description">An expense tracking app you can use even if you are offline</string>
+</resources>

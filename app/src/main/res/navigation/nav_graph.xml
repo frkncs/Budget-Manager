@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/addSpendFragment"
+        android:name="com.furkandev.budgetmanager.ui.fragments.AddSpendFragment"
+        android:label="fragment_add_spend"
+        tools:layout="@layout/fragment_add_spend" >
+        <action
+            android:id="@+id/action_addSpendFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeUserInfosFragment"
+        android:name="com.furkandev.budgetmanager.ui.fragments.ChangeUserInfosFragment"
+        android:label="fragment_change_user_infos"
+        tools:layout="@layout/fragment_change_user_infos" >
+        <action
+            android:id="@+id/action_changeUserInfosFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.furkandev.budgetmanager.ui.fragments.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_addSpendFragment"
+            app:destination="@id/addSpendFragment"
+            app:enterAnim="@anim/fragment_open_enter" />
+        <action
+            android:id="@+id/action_mainFragment_to_changeUserInfosFragment"
+            app:destination="@id/changeUserInfosFragment"
+            app:enterAnim="@anim/fragment_open_enter" />
+        <action
+            android:id="@+id/action_mainFragment_to_spendDetailFragment"
+            app:destination="@id/spendDetailFragment"
+            app:enterAnim="@anim/fragment_open_enter" />
+    </fragment>
+    <fragment
+        android:id="@+id/spendDetailFragment"
+        android:name="com.furkandev.budgetmanager.ui.fragments.SpendDetailFragment"
+        android:label="fragment_spend_detail"
+        tools:layout="@layout/fragment_spend_detail" >
+        <action
+            android:id="@+id/action_spendDetailFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="clickedItemPosition"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.furkandev.budgetmanager.ui.fragments.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_onBoardingScreen"
+            app:destination="@id/onBoardingScreen"
+            app:enterAnim="@anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingScreen"
+        android:name="com.furkandev.budgetmanager.ui.fragments.OnBoardingScreen"
+        android:label="fragment_on_boarding_screen"
+        tools:layout="@layout/fragment_on_boarding_screen" >
+        <action
+            android:id="@+id/action_onBoardingScreen_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/fade_in" />
+    </fragment>
+</navigation>

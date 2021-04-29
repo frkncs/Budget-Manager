@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.AddSpendFragment"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:title="@string/addSpend"
+        android:elevation="@dimen/dp_10"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginHorizontal="@dimen/dp_30"
+            android:layout_marginVertical="@dimen/dp_10"
+            app:boxStrokeWidth="@dimen/dp_2"
+            app:boxStrokeErrorColor="@color/design_default_color_error">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/description"
+                android:inputType="textCapSentences|textCapWords"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginHorizontal="@dimen/dp_30"
+            android:layout_marginVertical="@dimen/dp_10"
+            app:boxStrokeWidth="@dimen/dp_2"
+            app:boxStrokeErrorColor="@color/design_default_color_error">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/spendPrice"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dp_30">
+
+            <RadioButton
+                android:id="@+id/radioBtnBill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bill"
+                android:textSize="@dimen/sp_24"/>
+            <RadioButton
+                android:id="@+id/radioBtnHireSpend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hireSpend"
+                android:textSize="@dimen/sp_24"
+                android:layout_marginTop="@dimen/dp_10"/>
+            <RadioButton
+                android:id="@+id/radioBtnClothing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clothing"
+                android:textSize="@dimen/sp_24"
+                android:layout_marginTop="@dimen/dp_10"/>
+            <RadioButton
+                android:id="@+id/radioBtnOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/other"
+                android:textSize="@dimen/sp_24"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="@dimen/dp_30"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/radioBtnTL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tl"
+                android:textSize="@dimen/sp_16" />
+            <RadioButton
+                android:id="@+id/radioBtnUSD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/usd"
+                android:textSize="@dimen/sp_16"
+                android:layout_marginStart="@dimen/dp_10"/>
+            <RadioButton
+                android:id="@+id/radioBtnEURO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/euro"
+                android:textSize="@dimen/sp_16"
+                android:layout_marginStart="@dimen/dp_10"/>
+            <RadioButton
+                android:id="@+id/radioBtnSterling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gbp"
+                android:textSize="@dimen/sp_16"
+                android:layout_marginStart="@dimen/dp_10"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnAddSpend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addSpend"
+            android:textSize="@dimen/sp_24"
+            android:textStyle="bold"
+            android:paddingVertical="@dimen/dp_10"
+            android:paddingHorizontal="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_16"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
