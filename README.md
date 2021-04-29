@@ -39,7 +39,7 @@
 
 <h3>Android Telefonlarda Açmak İçin;<h3>
 <h4><ul>
-<li><a href="play.google.com/store/apps/details?id=com.furkandev.budgetmanager"><img src="https://i.resmim.net/i/google-play-badge.png" width = 100></a> butonuna basın</li>
+<li><a href="play.google.com/store/apps/details?id=com.furkandev.budgetmanager"><img src="https://i.resmim.net/i/google-play-badge.png" width = 120></a> butonuna basın</li>
 <li>Açılan Play Store ekranından "Yükle" veya "Install" butonuna basın</li>
 <li>Uygulamanın inmesini bekleyin</li>
 <li>Uygulama indikten sonra "Aç" veya "Open" butonuna basın. Eğer ana ekrana dönmüşseniz uygulamanın simgesine tıklayın</li>
