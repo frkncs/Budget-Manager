@@ -23,7 +23,8 @@
 <li>Min SDK: 21</li>
 <li>Harcamaların farklı para birimlerindeki karşılığını görme</li>
 <li>Offline Kullanılabilme</li>
-  <li>Para birimlerini çevirmek için kullandığım <a href="https://ratesapi.io">API</a></li>
+<li>İngilizce/Türkçe dil desteği</li>
+<li>Para birimlerini çevirmek için kullandığım <a href="https://ratesapi.io">API</a></li>
 </ul></h3>
 
 <br><h2>Kurulumlar;</h2>
