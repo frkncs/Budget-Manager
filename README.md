@@ -4,6 +4,8 @@
 
 <h2>Bu proje <a href = "https://www.youtube.com/channel/UCwHGWX8X0TqGXMb-Q_GkmPg">GDG Turkey</a> tarafından verilen ve 2 ay süren, Kotlin İle Android Uygulama Geliştirme Kampı bitirme projesidir</h2>
 
+<br><h3>ÖNEMLİ BİLGİLENDİRME: KULLANMIŞ OLDUĞUM API (ratesapi.io) KULLANIM DIŞI KALMIŞ. YAKINDA FARKLI BİR API KULLANARAK PROJEYİ GÜNCELLEYECEĞİM.</h2>
+
 <br><h2>Bu projede kullanılan teknolojiler;</h2>
 <h3><ul>
 <li>Retrofit</li>
